@@ -1,7 +1,0 @@
-C:\Users\Admin\OneDrive - Sysco Corporation\Desktop\Basic_C#_Programs\Mike\Loops\Loops\bin\Debug\Loops.exe.config
-C:\Users\Admin\OneDrive - Sysco Corporation\Desktop\Basic_C#_Programs\Mike\Loops\Loops\bin\Debug\Loops.exe
-C:\Users\Admin\OneDrive - Sysco Corporation\Desktop\Basic_C#_Programs\Mike\Loops\Loops\bin\Debug\Loops.pdb
-C:\Users\Admin\OneDrive - Sysco Corporation\Desktop\Basic_C#_Programs\Mike\Loops\Loops\obj\Debug\Loops.csproj.AssemblyReference.cache
-C:\Users\Admin\OneDrive - Sysco Corporation\Desktop\Basic_C#_Programs\Mike\Loops\Loops\obj\Debug\Loops.csproj.CoreCompileInputs.cache
-C:\Users\Admin\OneDrive - Sysco Corporation\Desktop\Basic_C#_Programs\Mike\Loops\Loops\obj\Debug\Loops.exe
-C:\Users\Admin\OneDrive - Sysco Corporation\Desktop\Basic_C#_Programs\Mike\Loops\Loops\obj\Debug\Loops.pdb

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Loops")]
+[assembly: AssemblyTitle("LoopsAssignmentSubmission")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Loops")]
+[assembly: AssemblyProduct("LoopsAssignmentSubmission")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c82c796f-b187-483a-9cf9-c52265e2c743")]
+[assembly: Guid("d5ab3dd5-5f3b-4664-8b33-b63db534cd8b")]
 
 // Version information for an assembly consists of the following four values:
 //
