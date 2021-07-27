@@ -1,0 +1,7 @@
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\MathOperationAssignmentSubmission\MathOperationAssignmentSubmission\obj\Debug\MathOperationAssignmentSubmission.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\MathOperationAssignmentSubmission\MathOperationAssignmentSubmission\obj\Debug\MathOperationAssignmentSubmission.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\MathOperationAssignmentSubmission\MathOperationAssignmentSubmission\bin\Debug\MathOperationAssignmentSubmission.exe.config
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\MathOperationAssignmentSubmission\MathOperationAssignmentSubmission\bin\Debug\MathOperationAssignmentSubmission.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\MathOperationAssignmentSubmission\MathOperationAssignmentSubmission\bin\Debug\MathOperationAssignmentSubmission.pdb
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\MathOperationAssignmentSubmission\MathOperationAssignmentSubmission\obj\Debug\MathOperationAssignmentSubmission.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\MathOperationAssignmentSubmission\MathOperationAssignmentSubmission\obj\Debug\MathOperationAssignmentSubmission.pdb
