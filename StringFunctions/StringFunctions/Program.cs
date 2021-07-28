@@ -27,10 +27,15 @@ namespace StringFunctions
 
 
             StringBuilder sb = new StringBuilder();
-            sb.Append("The quick"); 
-            sb.Append("brown fox"); 
-            sb.Append("just sat over");
-            sb.Append("the lazy dog!");
+            sb.Append(" The");
+            sb.Append(" quick");
+            sb.Append(" brown");
+            sb.Append(" fox");
+            sb.Append(" just");
+            sb.Append(" sat");
+            sb.Append(" over");
+            sb.Append(" the lazy");
+            sb.Append(" dog!");
             Console.WriteLine(sb);
             Console.ReadLine();
 
