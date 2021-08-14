@@ -8,24 +8,20 @@ namespace ConsoleAppAssignmentPart6
     {
         static void Main(string[] args)
         {
-            List<string> fruit = new List<string>() { "Apple", "Banana", "Mango", "Orange", "Grapes", "Apple" };
-            List<string> appeared = new List<string>();
-
-
-            foreach (string fruits in fruit)
+            char[] gender = { 'm', 'f', 'm', 'm', 'm', 'f', 'f', 'm', 'm', 'f' };
+            int male = 0, female = 0;
+            foreach (char g in gender)
             {
-                if (fruits == "Apple")
-                {
-                    appeared.Add(fruits);
-
-                    Console.WriteLine(fruits);
-                    Console.WriteLine("There are " + (appeared.Count) + " in the list!");
-
-                }
-
+                if (g == 'm')
+                    male++;
+                else if (g == 'f')
+                    female++;
             }
-
+            Console.WriteLine("Number of male appeared on the list  {0}", male + " times....");
+            Console.WriteLine("\nNumber of female appeared on the list  {0}", female + " times....");
             Console.ReadLine();
         }
+
+        
     }
 }
