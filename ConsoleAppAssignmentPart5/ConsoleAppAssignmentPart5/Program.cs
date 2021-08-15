@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
 namespace ConsoleAppAssignmentPart5
 {
@@ -10,31 +10,29 @@ namespace ConsoleAppAssignmentPart5
     {
         static void Main(string[] args)
         {
-            String[] clo = {"Mens", "Ladies", "Kids", "Infants"};
-            Console.WriteLine("Mens\n Ladies \n Kids \n Infants \n\t In the categories above type what you are looking for?: ");
-            string cat = Convert.ToString(Console.ReadLine());
-            int index = Array.FindIndex(clo, x => x == cat);
-            if (index > -1)
-                while (true)
-                {
+            String[] fruit = { "Apple", "Banana", "Mango", "Orange", "Apple" };
+            Console.WriteLine("Please Type in your Favorite Fruit:");
+            String fr = Convert.ToString(Console.ReadLine());
+            int f = 0;
 
-
-                    Console.WriteLine("{0} found in the array at index {1}", cat, index);
-                    Console.ReadLine();
-                    break;
-                }
-
-
-
-            else
+            foreach (String fruits in fruit)
+               
             {
-                Console.WriteLine("we dont have that kind of category");
+                if (fr == fruits)
+                    f++;
 
-            }
-            Console.WriteLine();
+                Console.WriteLine("There are {0}", f + " " + fr + " on the lists...");
+             }
             
 
-        }
 
+
+
+            
+                    Console.WriteLine("Sorry there are no" + fr + " on the list!");
+                
+                    Console.ReadLine();
+
+        }
     }
 }

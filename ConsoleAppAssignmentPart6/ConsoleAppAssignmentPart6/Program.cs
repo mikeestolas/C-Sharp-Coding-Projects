@@ -17,8 +17,8 @@ namespace ConsoleAppAssignmentPart6
                 else if (g == 'f')
                     female++;
             }
-            Console.WriteLine("Number of male appeared on the list  {0}", male + " times....");
-            Console.WriteLine("\nNumber of female appeared on the list  {0}", female + " times....");
+            Console.WriteLine("Number of male appeared on the list is  {0}", male + " times....");
+            Console.WriteLine("\nNumber of female appeared on the list is  {0}", female + " times....");
             Console.ReadLine();
         }
 
