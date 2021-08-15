@@ -14,7 +14,7 @@ namespace ConsoleAppAssignmentPart4
             int index = Array.IndexOf(car, c);
             
             while(true)
-            if (index > 1)
+            if (index > -1)
             {
                
                     Console.WriteLine(c + " can be found in index " + index);
