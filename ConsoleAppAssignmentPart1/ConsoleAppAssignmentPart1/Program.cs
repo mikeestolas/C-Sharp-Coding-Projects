@@ -29,15 +29,15 @@ namespace ConsoleAppAssignmentPart1
                 
             foreach (string months in month)
 
-                {
-                    
-                    
+                
+             //if(months.Contains(bm))        
 
-            if (index > -1)
+             if (index > -1)
             {
 
-                Console.WriteLine(bm + " is found in index " + index);
-                        Console.WriteLine(months);
+                        //Console.WriteLine(bm + " is found in index " + index);
+                        //Console.WriteLine(months);
+                        Console.WriteLine(months.Contains(bm) + bm + " is included in the list...");
 
                     }
             else
@@ -45,7 +45,7 @@ namespace ConsoleAppAssignmentPart1
                 Console.WriteLine("Value not found");
             }
 
-        }
+        
         Console.ReadLine();
 
         }
