@@ -8,17 +8,22 @@ namespace ConsoleAppAssignmentPart6
     {
         static void Main(string[] args)
         {
-            char[] gender = { 'm', 'f', 'm', 'm', 'm', 'f', 'f', 'm', 'm', 'f' };
-            int male = 0, female = 0;
-            foreach (char g in gender)
+            List<string> gender = new List<string>() { "m", "f", "m", "m", "m", "f", "f", "m", "m", "f" };
+            List<string> emptyg = new List<string>();
+           
+            foreach (string g in gender)
             {
-                if (g == 'm')
-                    male++;
-                else if (g == 'f')
-                    female++;
+                if (emptyg.Contains(g))
+                   
+                        Console.WriteLine(g + "This is appeared inthe list already")  ;
+
+                
+
+                else if (!emptyg.Contains(g))
+                        Console.WriteLine(g + "This is not yet appeared in the list ");
+                emptyg.Add(g);      
             }
-            Console.WriteLine("Number of male appeared on the list is  {0}", male + " times....");
-            Console.WriteLine("\nNumber of female appeared on the list is  {0}", female + " times....");
+            
             Console.ReadLine();
         }
 

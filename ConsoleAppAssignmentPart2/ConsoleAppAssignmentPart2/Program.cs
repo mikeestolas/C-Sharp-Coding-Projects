@@ -18,7 +18,7 @@ namespace ConsoleAppAssignmentPart2
                 //This will stop the loop
                 if (i > 275)
                 {
-                    break;
+                    //break;
                     
                 }
             }

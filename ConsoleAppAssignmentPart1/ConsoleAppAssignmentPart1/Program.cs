@@ -24,22 +24,13 @@ namespace ConsoleAppAssignmentPart1
 
             Console.WriteLine("Please Enter your month of birth:");
             String bm = Convert.ToString(Console.ReadLine());
-            int index = Array.IndexOf(month, bm);
-            if (index > -1)
-                
+
             foreach (string months in month)
-
-                
-             //if(months.Contains(bm))        
-
-             if (index > -1)
+   
             {
-
-                        //Console.WriteLine(bm + " is found in index " + index);
-                        //Console.WriteLine(months);
-                        Console.WriteLine(months.Contains(bm) + bm + " is included in the list...");
-
-                    }
+              Console.WriteLine(months + bm);
+                //append()
+             }
             else
             {
                 Console.WriteLine("Value not found");

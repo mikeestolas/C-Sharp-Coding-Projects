@@ -11,7 +11,7 @@ namespace ConsoleAppAssignmentPart4
             string[] car = { "Toyota", "Mazda", "Honda", "Jeep", "Acura", "Ford", "Jeep" };
             Console.WriteLine("Toyota, Mazda, Honda, Jeep, Acura, Ford \n from the list above type your brand:");
             String c = Console.ReadLine();
-            int index = Array.IndexOf(car, c);
+            int index = Array.IndexOf(car, c); //Indexof
             
             while(true)
             if (index > -1)
