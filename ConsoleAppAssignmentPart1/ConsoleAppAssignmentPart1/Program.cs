@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 
 namespace ConsoleAppAssignmentPart1
@@ -8,7 +9,7 @@ namespace ConsoleAppAssignmentPart1
     {
         static void Main(string[] args)
         {
-            string[] month = {
+            List<string> month = new List<string>() {
              "January",
              "February",
             "March",
@@ -21,26 +22,19 @@ namespace ConsoleAppAssignmentPart1
             "October",
             "November",
             "December"};
-
-            Console.WriteLine("Please Enter your month of birth:");
-            String bm = Convert.ToString(Console.ReadLine());
-
-            foreach (string months in month)
-   
+            Console.WriteLine("Please type any string: ");
+            string bm = Convert.ToString(Console.ReadLine());
+            
+            foreach (string m in month)
             {
-              Console.WriteLine(months + bm);
-                //append()
-             }
-            else
-            {
-                Console.WriteLine("Value not found");
+                string r = m + bm;   
+                
+             Console.WriteLine(r);
+              
             }
-
-        
-        Console.ReadLine();
-
-        }
-
+                Console.ReadLine();
+            
+        }              
 
     }
 }

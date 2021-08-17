@@ -1,0 +1,7 @@
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Exception Assignment\Exception Assignment\bin\Debug\Exception Assignment.exe.config
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Exception Assignment\Exception Assignment\bin\Debug\Exception Assignment.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Exception Assignment\Exception Assignment\bin\Debug\Exception Assignment.pdb
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Exception Assignment\Exception Assignment\obj\Debug\Exception Assignment.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Exception Assignment\Exception Assignment\obj\Debug\Exception Assignment.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Exception Assignment\Exception Assignment\obj\Debug\Exception Assignment.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Exception Assignment\Exception Assignment\obj\Debug\Exception Assignment.pdb

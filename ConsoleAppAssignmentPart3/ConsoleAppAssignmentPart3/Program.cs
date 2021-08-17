@@ -21,7 +21,14 @@ namespace ConsoleAppAssignmentPart3
                 string color = colors[i];
                 Console.WriteLine(color);
             }
-            Console.ReadLine();
+            for (int i = 0; i < colors.Length - 1; i++)
+            {
+                string color = colors[i];
+                Console.WriteLine(" ");
+                Console.WriteLine(color);
+            }
+
+                Console.ReadLine();
                 
         }
     }
