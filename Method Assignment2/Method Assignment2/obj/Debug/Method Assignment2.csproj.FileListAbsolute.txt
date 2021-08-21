@@ -1,0 +1,6 @@
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Method Assignment2\Method Assignment2\bin\Debug\Method Assignment2.exe.config
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Method Assignment2\Method Assignment2\bin\Debug\Method Assignment2.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Method Assignment2\Method Assignment2\bin\Debug\Method Assignment2.pdb
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Method Assignment2\Method Assignment2\obj\Debug\Method Assignment2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Method Assignment2\Method Assignment2\obj\Debug\Method Assignment2.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Method Assignment2\Method Assignment2\obj\Debug\Method Assignment2.pdb
