@@ -13,6 +13,7 @@ namespace ClassesandMethodsAssignment2
              Console.WriteLine("Please Enter first number:");
             int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please Enter second number:");
+            int b = Convert.ToInt32(Console.ReadLine());
 
             //int a = 100;
             //int b = 200;
