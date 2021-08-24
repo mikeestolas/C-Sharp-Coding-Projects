@@ -26,9 +26,9 @@ namespace Classes_and_Methods_Assignment_1
 
         }
 
-        public double Decimal( int data, double value)
+        public double Decimal( double data, double value)
         {
-            return  data / value; 
+            return  data * value; 
         }
 
 
