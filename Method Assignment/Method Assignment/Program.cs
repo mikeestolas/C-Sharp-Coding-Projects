@@ -16,10 +16,12 @@ namespace Method_Assignment
 
             var operatorObject = new Operator();
             int result = operatorObject.Add(userValue, 4);
-            result = operatorObject.Subtract(result, 2);
-            result = operatorObject.Divide(result, 2);
+            int result1 = operatorObject.Subtract(result, 2);
+            int result2 = operatorObject.Divide(result1, 2);
 
             Console.WriteLine(result);
+            Console.WriteLine(result1);
+            Console.WriteLine(result2);
             Console.ReadLine();
 
         }

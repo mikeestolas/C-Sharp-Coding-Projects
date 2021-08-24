@@ -19,7 +19,7 @@ namespace Classes_and_Methods_Assignment_1
             
             
             
-            int result = operatorObject. Add(userValue, 4);
+            int result = operatorObject.Add(userValue, 4);
             int result1 = operatorObject.Subtract(result, 2);
             int result2 = operatorObject.Divide(result1, 2);
             double result3 = operatorObject.Decimal(result2, 1.5);
