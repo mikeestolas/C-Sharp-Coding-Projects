@@ -1,0 +1,7 @@
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\ClassesandMethodsAssignment3\ClassesandMethodsAssignment3\bin\Debug\ClassesandMethodsAssignment3.exe.config
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\ClassesandMethodsAssignment3\ClassesandMethodsAssignment3\bin\Debug\ClassesandMethodsAssignment3.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\ClassesandMethodsAssignment3\ClassesandMethodsAssignment3\bin\Debug\ClassesandMethodsAssignment3.pdb
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\ClassesandMethodsAssignment3\ClassesandMethodsAssignment3\obj\Debug\ClassesandMethodsAssignment3.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\ClassesandMethodsAssignment3\ClassesandMethodsAssignment3\obj\Debug\ClassesandMethodsAssignment3.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\ClassesandMethodsAssignment3\ClassesandMethodsAssignment3\obj\Debug\ClassesandMethodsAssignment3.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\ClassesandMethodsAssignment3\ClassesandMethodsAssignment3\obj\Debug\ClassesandMethodsAssignment3.pdb
