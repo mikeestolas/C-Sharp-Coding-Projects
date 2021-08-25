@@ -8,22 +8,24 @@ namespace ClassesandMethodsAssignment2
 {
     class Program
     {
+
         static void Main(string[] args)
         {
-             Console.WriteLine("Please Enter first number:");
+
+            Console.WriteLine("Please Enter first number:");
             int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please Enter second number:");
             int b = Convert.ToInt32(Console.ReadLine());
 
-            //int a = 100;
-            //int b = 200;
-            int ret;
-            NumberManipulator n = new NumberManipulator();
+            var operatorObject = new Operator();
+
 
             
-            ret = n.FindMax(a, b);
-            Console.WriteLine("Max value is : {0}", ret);
+            Console.WriteLine(operatorObject.Add(10));
+
             Console.ReadLine();
+
+
         }
     }
 }

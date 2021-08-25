@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2AB7134D-DE62-4EB8-90F4-CF097C4BA2EB}</ProjectGuid>
+    <ProjectGuid>{2DF451DC-1E22-4F53-9DE6-39145307CE51}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>ClassesandMethodsAssignment2</RootNamespace>
     <AssemblyName>ClassesandMethodsAssignment2</AssemblyName>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Operator.cs" />
+    <Compile Include="NumberManipulator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
