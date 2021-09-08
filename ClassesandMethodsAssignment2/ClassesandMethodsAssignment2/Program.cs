@@ -11,23 +11,19 @@ namespace ClassesandMethodsAssignment2
         //public static int Data { get; set; }
         static void Main(string[] args)
         {
-            
-           
+
                 Console.WriteLine("Please Enter first number:");
                 int a = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Please Enter second number:");
-                int? b = Convert.ToInt32(Console.ReadLine());
-                
-
-
+                string b = Console.ReadLine();
 
                 var operatorObject = new Operator();
-            int result = operatorObject.Add(a,b);
+                 int result = operatorObject.Add(a,b);
 
-            
             if (b == " ")
             {
-                Console.WriteLine(operatorObject.Add(b));
+                int c = Convert.ToInt32(b);
+                Console.WriteLine(operatorObject.Add(c));
             }
 
             else
@@ -35,12 +31,6 @@ namespace ClassesandMethodsAssignment2
                 Console.WriteLine(result);
 
             }
-
-
-
-
-
-
 
             Console.ReadLine();
             }
