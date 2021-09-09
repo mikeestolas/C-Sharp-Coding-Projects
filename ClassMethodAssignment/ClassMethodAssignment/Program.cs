@@ -13,13 +13,16 @@ namespace ClassMethodAssignment
 
             Console.WriteLine("Enter a number:");
             int userInput = Convert.ToInt32(Console.ReadLine());
-            int q, a = userInput;
+            int q, s,  a = userInput;
 
             divide ob = new divide();
+           
 
-            divide.Math_Calc(a,  out q);
+            divide.Math_Calc(a,  out q, out s);
+            
 
-            Console.WriteLine("The quotient after dividing {0} by {1}: {2}", a, 2, q);
+            Console.WriteLine("The quotient after dividing {0} by {1}: {2} ,  adding adding 2 : {3}", a, 2, q, s);
+            
             Console.ReadLine();
         }
     }
