@@ -12,7 +12,7 @@ namespace ClassesandMethodsAssignment2
     {
 
 
-        public int Add(int a, int b = 10)
+        public int Add(int a, int  b = 10 )
 
            
 

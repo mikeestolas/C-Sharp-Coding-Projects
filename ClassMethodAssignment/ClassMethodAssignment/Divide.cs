@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace ClassMethodAssignment
 {
-    class Divide
+    class divide
     {
+        public static void Math_Calc(int userInput, out int quotient)
+        {
+            
+            quotient = userInput / 2;
+        }
+
     }
 }

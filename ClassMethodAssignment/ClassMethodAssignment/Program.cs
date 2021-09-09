@@ -8,8 +8,21 @@ namespace ClassMethodAssignment
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] ar)
         {
+
+            Console.WriteLine("Enter a number:");
+            int userInput = Convert.ToInt32(Console.ReadLine());
+            int q, a = userInput;
+            //float r;
+
+            divide ob = new divide();
+
+            divide.Math_Calc(a,  out q);
+
+            //Console.WriteLine("The remainder after dividing {0} by {1}: {2}", a, 10, r);
+            Console.WriteLine("The quotient after dividing {0} by {1}: {2}", a, 2, q);
+            Console.ReadLine();
         }
     }
 }
