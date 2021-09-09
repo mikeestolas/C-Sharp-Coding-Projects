@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\InheritanceAssignment\InheritanceAssignment\bin\Debug\InheritanceAssignment.exe.config
+C:\Users\Admin\source\repos\InheritanceAssignment\InheritanceAssignment\bin\Debug\InheritanceAssignment.exe
+C:\Users\Admin\source\repos\InheritanceAssignment\InheritanceAssignment\bin\Debug\InheritanceAssignment.pdb
+C:\Users\Admin\source\repos\InheritanceAssignment\InheritanceAssignment\obj\Debug\InheritanceAssignment.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\InheritanceAssignment\InheritanceAssignment\obj\Debug\InheritanceAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\InheritanceAssignment\InheritanceAssignment\obj\Debug\InheritanceAssignment.exe
+C:\Users\Admin\source\repos\InheritanceAssignment\InheritanceAssignment\obj\Debug\InheritanceAssignment.pdb
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\InheritanceAssignment\InheritanceAssignment\bin\Debug\InheritanceAssignment.exe.config
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\InheritanceAssignment\InheritanceAssignment\bin\Debug\InheritanceAssignment.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\InheritanceAssignment\InheritanceAssignment\bin\Debug\InheritanceAssignment.pdb
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\InheritanceAssignment\InheritanceAssignment\obj\Debug\InheritanceAssignment.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\InheritanceAssignment\InheritanceAssignment\obj\Debug\InheritanceAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\InheritanceAssignment\InheritanceAssignment\obj\Debug\InheritanceAssignment.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\InheritanceAssignment\InheritanceAssignment\obj\Debug\InheritanceAssignment.pdb

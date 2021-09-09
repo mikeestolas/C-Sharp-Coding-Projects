@@ -13,10 +13,10 @@ namespace ClassMethodAssignment
             sum = userInput + 2;
             quotient = userInput / 2;
         }
-        //public static double Math_CalcAdd(double userInput, double quotient)
-        //{
-        //    return userInput + 100;
-        //}
+        public static double Math_Calc(double userInput, double quotient)
+        {
+            return userInput + quotient;
+        }
 
     }
 }
