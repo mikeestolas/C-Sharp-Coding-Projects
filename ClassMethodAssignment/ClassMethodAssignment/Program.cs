@@ -24,7 +24,7 @@ namespace ClassMethodAssignment
             double m = divide.Math_Calc(a, q);
             
 
-            Console.WriteLine("The quotient after dividing {0} by {1}: {2} ,  adding adding 2 : {3}", a, 2, q, s);
+            Console.WriteLine("The quotient after dividing {0} by {1}: {2} ,  adding  2 : {3}", a, 2, q, s);
             Console.WriteLine("The sum of quotient after adding " + a +  " is " + m);
             
             Console.ReadLine();
