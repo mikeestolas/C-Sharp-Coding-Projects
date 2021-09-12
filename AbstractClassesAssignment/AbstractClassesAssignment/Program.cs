@@ -4,16 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InheritanceAssignment
+namespace AbstractClassesAssignment
 {
     class Program
     {
+
+    
+    
         static void Main(string[] args)
         {
             Employee E = new Employee();
             E.SayName();
-            
         }
-       
     }
 }

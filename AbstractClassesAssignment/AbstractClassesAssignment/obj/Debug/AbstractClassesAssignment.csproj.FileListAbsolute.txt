@@ -1,0 +1,7 @@
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\AbstractClassesAssignment\AbstractClassesAssignment\bin\Debug\AbstractClassesAssignment.exe.config
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\AbstractClassesAssignment\AbstractClassesAssignment\bin\Debug\AbstractClassesAssignment.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\AbstractClassesAssignment\AbstractClassesAssignment\bin\Debug\AbstractClassesAssignment.pdb
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\AbstractClassesAssignment\AbstractClassesAssignment\obj\Debug\AbstractClassesAssignment.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\AbstractClassesAssignment\AbstractClassesAssignment\obj\Debug\AbstractClassesAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\AbstractClassesAssignment\AbstractClassesAssignment\obj\Debug\AbstractClassesAssignment.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\AbstractClassesAssignment\AbstractClassesAssignment\obj\Debug\AbstractClassesAssignment.pdb
