@@ -14,7 +14,7 @@ namespace InterfacesAssignment
         public override void SayName()
         {
 
-            base.SayName();
+            //base.SayName();
             Console.WriteLine("Employee ID: {0}", id);
             Console.WriteLine("FirstName: {0}", FirstName);
             Console.WriteLine("LastName: {0}", LastName);
