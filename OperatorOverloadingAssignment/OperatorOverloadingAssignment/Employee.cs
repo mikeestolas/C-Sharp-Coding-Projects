@@ -8,41 +8,41 @@ namespace OperatorOverloadingAssignment
 {
     public class Employee : Person
     {
-        
+
 
         public int ID { get; set; }
 
-        public static bool operator ==(Employee employee, Employee employee2)
+        public static bool operator ==(Employee employee1, Employee employee2)
         {
-            if (employee.ID == employee2.ID)
+            if (employee1.ID == employee2.ID)
                 return true;
             else
                 return false;
-
-          
-            //return employee.ID == employee2.ID;
         }
 
-        public static bool operator !=(Employee employee, Employee employee2)
+
+
+        public static bool operator !=(Employee employee1, Employee employee2)
         {
-            return employee.ID != employee2.ID;
+            return employee1.ID != employee2.ID;
         }
 
-        public override bool Equals(object obj)
-        {
-            var emp = obj as Employee;
-            if (emp == null)
-                return false;
+        //public override bool Equals(object obj)
+        //{
+        //    var emp = obj as Employee;
+        //    if (emp == null)
+        //        return false;
 
-            return this.ID.Equals(emp.ID);
-        }
+        //    return this.ID.Equals(emp.ID);
 
+        //}
         
+
+
+
+
+
+
     }
-
-
-
-
-
 }
 

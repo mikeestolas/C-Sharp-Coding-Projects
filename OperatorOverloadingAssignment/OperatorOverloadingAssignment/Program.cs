@@ -8,13 +8,14 @@ namespace OperatorOverloadingAssignment
 {
     class Program
     {
-        static void Main(string[] args)
+         static void Main(string[]args)
         {
-           Employee example = new Employee();
+           Employee example1 = new Employee();
+            
 
-            example.FirstName = "Michael";
-            example.LastName = "Estolas";
-            example.ID = 24923;
+            example1.FirstName = "Michael";
+            example1.LastName = "Estolas";
+            example1.ID = 24923;
 
             Employee example2 = new Employee();
             example2.FirstName = "Rocel";
@@ -25,5 +26,6 @@ namespace OperatorOverloadingAssignment
 
             
         }
+        
     }
 }
