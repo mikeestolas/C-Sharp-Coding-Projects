@@ -22,6 +22,14 @@ namespace OperatorOverloadingAssignment
             example2.LastName = "Bermudez";
             example2.ID = 39292;
 
+            if (example1 == example2)
+            {
+                Console.WriteLine("Employee1 is equal to Employee2");
+            }
+            else
+            {
+                Console.WriteLine("Employee1 is not equal to Employee2");
+            }
             Console.ReadLine();
 
             
