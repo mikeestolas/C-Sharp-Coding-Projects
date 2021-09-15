@@ -10,7 +10,7 @@ namespace GenericsAssignment
     {
         public static void Main(string[] args)
         {
-            // Create Employee Objects
+          
             Employee emp1 = new Employee()
             {
                 ID = 101,
