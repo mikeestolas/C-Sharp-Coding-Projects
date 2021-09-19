@@ -13,9 +13,9 @@ namespace AbstractClassesAssignment
 
         public virtual void SayName()
         {
-            //Console.WriteLine("FirstName: {0}", FirstName);
-            //Console.WriteLine("LastName: {0}", LastName);
-            //Console.ReadLine();
+            Console.WriteLine("FirstName: {0}", FirstName);
+            Console.WriteLine("LastName: {0}", LastName);
+            Console.ReadLine();
         }
     }
 }

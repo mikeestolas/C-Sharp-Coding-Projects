@@ -18,15 +18,19 @@ namespace OperatorOverloadingAssignment
         {
             if (employee1.ID == employee2.ID)
                 return true;
+            //Console.WriteLine("Employee1 is equal to Employee2" + );
             else
                 return false;
+            
         }
 
 
 
         public static bool operator !=(Employee employee1, Employee employee2)
+
         {
             return employee1.ID != employee2.ID;
+            //Console.WriteLine("Employee1 is not equal to Employee2");
         }
 
         public override bool Equals(object obj)
@@ -38,6 +42,7 @@ namespace OperatorOverloadingAssignment
             return this.ID.Equals(emp.ID);
 
         }
+        
 
 
 
