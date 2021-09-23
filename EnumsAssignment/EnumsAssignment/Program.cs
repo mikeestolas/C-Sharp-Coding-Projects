@@ -8,6 +8,7 @@ namespace EnumsAssignment
 {
     class Program
     {
+        
         public enum araw
         {
             Monday,    // 0
@@ -18,19 +19,20 @@ namespace EnumsAssignment
             Saturday,       // 9
             Sunday        // 10
         }
-
+        public string UserIn { get; set; }
         static void Main(string[] args)
         {
+            
             Console.WriteLine("Enter the day today:");
             string UserIn = Convert.ToString(Console.ReadLine());
 
-            araw b = araw.Monday;
+            
 
-            //DayOfWeek today = DateTime.Today.DayOfWeek;
-            //Console.WriteLine("Today is {0}",
-            //    today);
+            DayOfWeek today = DateTime.Today.DayOfWeek;
+            Console.WriteLine("Today is {0}",
+                today);
 
-            if (b == araw.Monday || b == araw.Tuesday || b == araw.Wednesday || b == araw.Thursday)
+            if (UserIn ==  )
 
 
 
