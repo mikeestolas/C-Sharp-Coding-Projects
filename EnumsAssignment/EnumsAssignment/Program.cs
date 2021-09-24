@@ -29,10 +29,12 @@ namespace EnumsAssignment
                     DayOfWeek today = DateTime.Today.DayOfWeek;
                     Console.WriteLine("Enter the day today:");
                     string UserIn = Convert.ToString(Console.ReadLine());
+                    int enumVal = Convert.ToInt32(today);
+
 
                     if (OneWeek.araw.IsDefined(typeof(araw), UserIn))
                         {
-                        Console.WriteLine(UserIn + " is in the list but today is " + today);
+                        Console.WriteLine(UserIn + " is in the list but today is " + today + "  with enum value of " + enumVal);
                         }
                     break;  
 

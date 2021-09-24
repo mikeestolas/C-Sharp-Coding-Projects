@@ -1,0 +1,7 @@
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\StructsAssignment\StructsAssignment\bin\Debug\StructsAssignment.exe.config
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\StructsAssignment\StructsAssignment\bin\Debug\StructsAssignment.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\StructsAssignment\StructsAssignment\bin\Debug\StructsAssignment.pdb
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\StructsAssignment\StructsAssignment\obj\Debug\StructsAssignment.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\StructsAssignment\StructsAssignment\obj\Debug\StructsAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\StructsAssignment\StructsAssignment\obj\Debug\StructsAssignment.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\StructsAssignment\StructsAssignment\obj\Debug\StructsAssignment.pdb
