@@ -14,6 +14,7 @@ namespace GenericsAssignment
             Employee<int> emp1 = new Employee<int>()
             {
                 ID = 101,
+
                 
             };  
             Employee<string> emp2 = new Employee<string>()
@@ -26,7 +27,7 @@ namespace GenericsAssignment
             emp1.things  = new List<int>();
             emp2.things  = new List<string>();
 
-            //foreach(List<int> i in  )
+            //for (emp1 = 0; emp1 < 2; i++)
             //{
             //    Console.WriteLine(i);
 
