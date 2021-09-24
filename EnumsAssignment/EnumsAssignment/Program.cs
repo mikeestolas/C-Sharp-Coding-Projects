@@ -34,10 +34,12 @@ namespace EnumsAssignment
                 DayOfWeek today = (DayOfWeek)Enum.Parse(typeof(DayOfWeek), UserIn);
                 Console.WriteLine("Have a nice" + today);
                 Console.ReadLine();
-                isvalid = true;
+
+                var isvalid = true;
             }
             catch (ArgumentException ex)
             {
+                Console.WriteLine(ex.Message);
                 Console.WriteLine("Please enter an actual day of the week");
             }
             Console.ReadLine();
