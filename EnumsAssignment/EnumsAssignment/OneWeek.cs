@@ -8,5 +8,15 @@ namespace EnumsAssignment
 {
     class OneWeek
     {
+        public enum araw
+        {
+            Monday = 0,    
+            Tuesday,   
+            Wednesday,    
+            Thursday,      
+            Friday,        
+            Saturday,       
+            Sunday        
+        }
     }
 }
