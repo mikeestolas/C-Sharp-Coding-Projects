@@ -13,7 +13,7 @@ namespace GenericsAssignment
 
             Employee<int> empid = new Employee<int>();
             Employee<string> empfn = new Employee<string>();
-           
+
 
             empid.things  = new List<int>()
             {
