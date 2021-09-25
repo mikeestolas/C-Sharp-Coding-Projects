@@ -11,46 +11,33 @@ namespace GenericsAssignment
         public static void Main(string[] args)
         {
 
-            Employee<int> emp1 = new Employee<int>()
-            {
-                ID = 101,
+            Employee<int> empid = new Employee<int>();
+            Employee<string> empfn = new Employee<string>();
+           
 
-                
-            };  
-            Employee<string> emp2 = new Employee<string>()
+            empid.things  = new List<int>()
             {
-               
-                Name = "Priyanka",
-                
+                12,
+                34,
+                20
             };
-
-            emp1.things  = new List<int>();
-            emp2.things  = new List<string>();
-
-            //for (emp1 = 0; emp1 < 2; i++)
-            //{
-            //    Console.WriteLine(i);
-
-            //}
-            Console.WriteLine(emp1.ID + emp2.Name);
-
-            
-            
-            
-            
-                
+            empfn.things  = new List<string>()
+            {
+                "Mike",
+                "Rocel",
+                "Chito"
+            };
+            foreach (int mm in empid.things)
+            {
+                Console.WriteLine(mm);
+            }
+            foreach (string nn in empfn.things)
+            {
+                Console.WriteLine(nn);
+            }
             Console.ReadLine();
-
-            
-            
-            
-            
-
-
-            
-            
- 
         }
+
         
     }
 }
