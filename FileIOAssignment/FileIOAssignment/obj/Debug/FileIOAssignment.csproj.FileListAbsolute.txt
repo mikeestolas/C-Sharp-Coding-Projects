@@ -1,0 +1,7 @@
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\FileIOAssignment\FileIOAssignment\bin\Debug\FileIOAssignment.exe.config
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\FileIOAssignment\FileIOAssignment\bin\Debug\FileIOAssignment.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\FileIOAssignment\FileIOAssignment\bin\Debug\FileIOAssignment.pdb
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\FileIOAssignment\FileIOAssignment\obj\Debug\FileIOAssignment.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\FileIOAssignment\FileIOAssignment\obj\Debug\FileIOAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\FileIOAssignment\FileIOAssignment\obj\Debug\FileIOAssignment.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\FileIOAssignment\FileIOAssignment\obj\Debug\FileIOAssignment.pdb
