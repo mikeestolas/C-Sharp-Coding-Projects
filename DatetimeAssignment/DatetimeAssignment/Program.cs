@@ -13,10 +13,10 @@ namespace DatetimeAssignment
         {
             Console.WriteLine("Enter a number:");
             int userIn = Convert.ToInt32(Console.ReadLine());
+            DateTime dateTime = new DateTime(2021, 10, 1, userIn, 0, 0);
+            Console.WriteLine(dateTime);
 
-            Console.WriteLine("today is " + DateTime.Now);
-
-            //DateTime dateTime = new DateTime()
+            
             Console.ReadLine();
 
 
