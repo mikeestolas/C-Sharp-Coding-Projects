@@ -1,0 +1,7 @@
+C:\Users\Admin\OneDrive - Sysco Corporation\Desktop\Basic_C#_Programs\Mike\TwentyOne\TwentyOne\bin\Debug\TwentyOne.exe.config
+C:\Users\Admin\OneDrive - Sysco Corporation\Desktop\Basic_C#_Programs\Mike\TwentyOne\TwentyOne\bin\Debug\TwentyOne.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Desktop\Basic_C#_Programs\Mike\TwentyOne\TwentyOne\bin\Debug\TwentyOne.pdb
+C:\Users\Admin\OneDrive - Sysco Corporation\Desktop\Basic_C#_Programs\Mike\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive - Sysco Corporation\Desktop\Basic_C#_Programs\Mike\TwentyOne\TwentyOne\obj\Debug\TwentyOne.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Sysco Corporation\Desktop\Basic_C#_Programs\Mike\TwentyOne\TwentyOne\obj\Debug\TwentyOne.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Desktop\Basic_C#_Programs\Mike\TwentyOne\TwentyOne\obj\Debug\TwentyOne.pdb

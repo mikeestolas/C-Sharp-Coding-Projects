@@ -22,34 +22,33 @@ namespace Exception_Assignment
                 
                     foreach (int n in num)
                          
-                {
+                    {
                     
                         int result = n / cnum;
                    
                     Console.WriteLine(n + " divided to " + cnum + " is " + result);
                            
-                }
+                    }
                     break;   
             }
-            catch (FormatException ex)
-            {
-                Console.WriteLine(ex.Message); //error handling
-                Console.WriteLine("Please type a whole number."); //custom message
-                return;
-                                 
+                catch (FormatException ex)
+                    {
+                        Console.WriteLine(ex.Message); //error handling
+                        Console.WriteLine("Please type a whole number."); //custom message
+                        return;
+                    }
 
-            }
-            catch (DivideByZeroException ex)
-            {
-                Console.WriteLine(ex.Message);
-                Console.WriteLine("Please don't divide by zero");
+            
+                catch (DivideByZeroException ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                        Console.WriteLine("Please don't divide by zero");
                     
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message); //general error execption
-                    
-            }
+                    }
+                catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message); //general error execption
+                    }
             
             finally
             {

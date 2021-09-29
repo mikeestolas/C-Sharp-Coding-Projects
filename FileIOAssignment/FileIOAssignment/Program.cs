@@ -14,7 +14,7 @@ namespace FileIOAssignment
         {
             
             Console.WriteLine("Please enter a number:");
-            string userIn = Convert.ToString(Console.ReadLine());
+            string userIn = Console.ReadLine();
            
 
 

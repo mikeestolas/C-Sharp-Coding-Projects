@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GenericsAssignment
 {
@@ -15,13 +12,13 @@ namespace GenericsAssignment
             Employee<string> empfn = new Employee<string>();
 
 
-            empid.things  = new List<int>()
+            empid.things = new List<int>()
             {
                 12,
                 34,
                 20
             };
-            empfn.things  = new List<string>()
+            empfn.things = new List<string>()
             {
                 "Mike",
                 "Rocel",
@@ -38,6 +35,6 @@ namespace GenericsAssignment
             Console.ReadLine();
         }
 
-        
+
     }
 }
