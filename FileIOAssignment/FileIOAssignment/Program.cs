@@ -21,6 +21,9 @@ namespace FileIOAssignment
             File.WriteAllText(@"C:\Users\Admin\OneDrive - Sysco Corporation\Desktop\Logs\log.txt", userIn);
 
             Console.WriteLine("You have enter " + userIn);
+
+            string text = System.IO.File.ReadAllText(@"C:\Users\Admin\OneDrive - Sysco Corporation\Desktop\Logs\log.txt");
+            Console.WriteLine("coming from the text file: " + text);
             Console.ReadLine();
 
 
