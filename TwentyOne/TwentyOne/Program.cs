@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+//using System.Threading.Tasks;
 using System.IO;
+using Casino;
+using Casino.TwentyOne;
 
 namespace TwentyOne
 {
@@ -22,11 +24,11 @@ namespace TwentyOne
             //DateTime yearofGraduation = new DateTime(2013, 6, 1, 16, 34, 22);
 
             //TimeSpan ageAtGraduation = yearofGraduation - yearofBirth;
-            
 
+            //const string casinoName = "Grand Hotl and Casino";
+            //Console.Write("Welcome to the {0}. let's start by telling me your name.", casinoName);  //creating a constant variable
 
-
-
+           
 
             Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me your name.");
             string playerName = Console.ReadLine();
@@ -40,6 +42,14 @@ namespace TwentyOne
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
             {
                 Player player = new Player(playerName, bank);
+
+                player.ID = Guid.NewGuid(); //GUID
+                using (StreamWriter file = new StreamWriter(@"C:\Users\Admin\OneDrive - Sysco Corporation\Desktop\Logs\log.txt", true))
+                {
+                    file.WriteLine(player.Id);
+                    
+                }
+
                 Game game = new TwentyOneGame();
                 game += player;
                 player.isActivelyPlaying = true;

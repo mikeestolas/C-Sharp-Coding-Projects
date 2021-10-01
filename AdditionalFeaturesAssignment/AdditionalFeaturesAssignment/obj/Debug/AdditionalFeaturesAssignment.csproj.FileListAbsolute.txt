@@ -1,0 +1,7 @@
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\AdditionalFeaturesAssignment\AdditionalFeaturesAssignment\bin\Debug\AdditionalFeaturesAssignment.exe.config
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\AdditionalFeaturesAssignment\AdditionalFeaturesAssignment\bin\Debug\AdditionalFeaturesAssignment.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\AdditionalFeaturesAssignment\AdditionalFeaturesAssignment\bin\Debug\AdditionalFeaturesAssignment.pdb
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\AdditionalFeaturesAssignment\AdditionalFeaturesAssignment\obj\Debug\AdditionalFeaturesAssignment.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\AdditionalFeaturesAssignment\AdditionalFeaturesAssignment\obj\Debug\AdditionalFeaturesAssignment.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\AdditionalFeaturesAssignment\AdditionalFeaturesAssignment\obj\Debug\AdditionalFeaturesAssignment.pdb
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\AdditionalFeaturesAssignment\AdditionalFeaturesAssignment\obj\Debug\AdditionalFeaturesAssignment.csproj.AssemblyReference.cache
