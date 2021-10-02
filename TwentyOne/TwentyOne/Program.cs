@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-//using System.Threading.Tasks;
+using System.Threading.Tasks;
 using System.IO;
 using Casino;
 using Casino.TwentyOne;
@@ -32,6 +32,16 @@ namespace TwentyOne
 
             Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me your name.");
             string playerName = Console.ReadLine();
+
+            bool validAnswer = false;  //Exception handling
+            int bank = 0;
+            while (!validAnswer)
+            {
+                Console.WriteLine("And how much money did you bring today?");
+                validAnswer = int.TryParse(Console.ReadLine(), out bank);
+                if (!validAnswer) Console.WriteLine("Please enter digits only, no decimals.");
+            }
+
 
             Console.WriteLine("How much money did you vring today?");
             int bank = Convert.ToInt32(Console.ReadLine());
