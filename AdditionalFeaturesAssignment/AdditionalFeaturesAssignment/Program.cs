@@ -14,8 +14,8 @@ namespace AdditionalFeaturesAssignment
        static void Main(string[] args)
             {
                 var p = new Poodle("Black");
-                
-                Console.WriteLine("The " + p.GetColor() + " poodle says " + p.Speak());
+                const string pet = "Bulldog";
+                Console.WriteLine("The " + p.GetColor() + pet + " says " + p.Speak());
             Console.ReadLine();
             }
         
