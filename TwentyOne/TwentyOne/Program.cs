@@ -44,7 +44,7 @@ namespace TwentyOne
 
 
             Console.WriteLine("How much money did you vring today?");
-            int bank = Convert.ToInt32(Console.ReadLine());
+            int Bank = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Hello, {0}. would you like to join a game of 21 right now?", playerName);
             string answer = Console.ReadLine().ToLower();
@@ -56,7 +56,7 @@ namespace TwentyOne
                 player.ID = Guid.NewGuid(); //GUID
                 using (StreamWriter file = new StreamWriter(@"C:\Users\Admin\OneDrive - Sysco Corporation\Desktop\Logs\log.txt", true))
                 {
-                    file.WriteLine(player.Id);
+                    file.WriteLine(player.ID);
                     
                 }
 

@@ -9,40 +9,58 @@ namespace AdditionalFeaturesAssignment
 {
     class Program
     {
+        
 
-        public class Student
-        {
-            int id;
-            string name;
-            string city;
-
-            Student(int id, string name)
+       static void Main(string[] args)
             {
-                this.id = id;
-                this.name = name;
+                var p = new Poodle("Black");
+                
+                Console.WriteLine("The " + p.GetColor() + " poodle says " + p.Speak());
+            Console.ReadLine();
             }
-            Student(int id, string name, string city)
-            {
-                this.id = id;
-                this.name = name;
+        
 
-                this.city = city;
-            }
 
-            void display()
-            {
-                Console.Out.WriteLine("id: " + id + " name :" + name + " city: " + city);
-            }
 
-            public static void Main(string[] args)
-            {
-                var s = new Student(1, "Mike");
-                s.display();
-                Student s2 = new Student(2, "Mike", "Manila");
-                s2.display();
-                Console.ReadLine();
 
-            }
+
+
+        }
+}
+
+//public class Student
+        //{
+        //    int id;
+        //    string name;
+        //    string city;
+
+        //    Student(int id, string name)
+        //    {
+        //        this.id = id;
+        //        this.name = name;
+        //    }
+        //    Student(int id, string name, string city)
+        //    {
+        //        this.id = id;
+        //        this.name = name;
+
+        //        this.city = city;
+        //    }
+
+        //    void display()
+        //    {
+        //        Console.Out.WriteLine("id: " + id + " name :" + name + " city: " + city);
+        //    }
+
+        //    public static void Main(string[] args)
+        //    {
+        //        var s = new Student(1, "Mike");
+        //        s.display();
+        //        Student s2 = new Student(2, "Mike", "Manila");
+        //        s2.display();
+        //        Console.ReadLine();
+
+        //    }
 
 
 
@@ -62,10 +80,3 @@ namespace AdditionalFeaturesAssignment
             //    //Console.WriteLine("Age: {0}", age);
             //    //Console.WriteLine("\nPress Enter Key to Exit..");
             //    //Console.ReadLine();
-
-
-        }
-
-
-    }
-}
