@@ -10,6 +10,7 @@
 namespace CarInsurance.Models
 {
     using System;
+    using System.Collections.Generic;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
@@ -28,5 +29,6 @@ namespace CarInsurance.Models
         public virtual DbSet<Table> Tables { get; set; }
         public string FirstName { get; internal set; }
         public string LastName { get; internal set; }
+        public IEnumerable<object> InsuranceEntities { get; internal set; }
     }
 }
