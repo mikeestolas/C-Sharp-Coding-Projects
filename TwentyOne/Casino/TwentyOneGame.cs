@@ -31,11 +31,19 @@ namespace Casino.TwentyOne
             {
                 bool validAnswer = false;
                 int bet = 1;
-                while (!validAnswer)
+                while (!validAnswer)   //exception handling
                 {
                     Console.WriteLine("Place your bet!");
                     validAnswer = int.TryParse(Console.ReadLine(), out bet);
                     if (!validAnswer) Console.WriteLine("Please enter digits only, no decimals.");
+
+
+                }
+
+                if(bet < 0)
+                {
+                    //throw new Exception();
+                    throw new FraudException("Secuirty Kick this person out.");
                 }
 
 

@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Casino
-{     public class Deck //collection of cards
+{ 
+    public class Deck //collection of cards
     {
         public Deck() //constructor
         {
