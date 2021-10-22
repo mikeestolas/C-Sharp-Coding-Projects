@@ -49,10 +49,77 @@ namespace CarInsurance.Controllers
         public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageTypre, Quote")] Table table)
         {
             if (ModelState.IsValid)
+
+
             {
+                // Quote is assigned the base rate
+                table.Qoute = 50;
 
+                // Save today's date.
+                var today = DateTime.Today;
 
+                // Calculate insuree age.
+                var age = today.Year - table.DateOfBirth.Year;
 
+                // This goes through several checks and adds to the base quote accordingly
+                // This probably could be made more efficient, but this is easier to write out and understand
+                if (age <= 18)
+                {
+                    table.Qoute = table.Qoute + 100;
+                }
+
+                if (age >= 19 && age <= 25)
+                {
+                    table.Qoute = table.Qoute + 50;
+                }
+
+                if (age > 25)
+                {
+                    table.Qoute = table.Qoute + 25;
+                }
+
+                if (table.CarYear < 2000)
+                {
+                    table.Qoute = table.Qoute + 25;
+                }
+
+                if (table.CarYear > 2015)
+                {
+                    table.Qoute = table.Qoute + 25;
+                }
+
+                if (table.CarMake == "Porsche")
+                {
+                    table.Qoute = table.Qoute + 25;
+                }
+
+                if (table.CarMake == "Porsche" && table.CarModel == "911 Carrera")
+                {
+                    table.Qoute = table.Qoute + 25;
+                }
+
+                if (table.SpeedingTickets > 0)
+                {
+                    int tickets = table.SpeedingTickets;
+                    int ticketTotal = (10 * tickets);
+                    table.Qoute = table.Qoute + ticketTotal;
+                }
+
+                if (table.DUI == true)
+                {
+                    decimal totalMultiplier = (decimal).25;
+
+                    decimal total = table.Qoute * totalMultiplier;
+                    table.Qoute = table.Qoute + total;
+                }
+
+                if (table.CoverageTypre == true)
+                {
+                    decimal totalMultiplier = (decimal).50;
+
+                    decimal total = table.Qoute * totalMultiplier;
+                    table.Qoute = table.Qoute + total;
+                }
 
                 db.Tables.Add(table);
                 db.SaveChanges();
@@ -61,6 +128,17 @@ namespace CarInsurance.Controllers
 
             return View(table);
         }
+
+
+
+
+        //        db.Tables.Add(table);
+        //        db.SaveChanges();
+        //        return RedirectToAction("Index");
+        //    }
+
+        //    return View(table);
+        //}
 
         // GET: Insuree/Edit/5
         public ActionResult Edit(int? id)
@@ -118,106 +196,6 @@ namespace CarInsurance.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
-        [HttpPost]
-        public ActionResult QouteResult
-            (string firstname,
-            string lastname,
-            string emailaddress,
-            DateTime dateofbirth,
-            int caryear,
-            string carmake,
-            string carmodel,
-            bool dui,
-            int speedtickets,
-            bool coveragetypre,
-            int? qoute)
-        {
-            if (string.IsNullOrEmpty(firstname) || string.IsNullOrEmpty(lastname) || string.IsNullOrEmpty(emailaddress) || string.IsNullOrEmpty(carmake) || string.IsNullOrEmpty(carmodel))
-            {
-                return View("~/Views/Shared/Error.cshtml");
-            }
-            else
-            {
-                using (InsuranceEntities db = new InsuranceEntities())
-                {
-                    var s = new Table();
-                    s.FirstName = firstname;
-                    s.LastName = lastname;
-                    s.EmailAddress = emailaddress;
-                    s.DateOfBirth = dateofbirth;
-                    s.CarYear = caryear;
-                    s.CarMake = carmake;
-                    s.CarModel = carmodel;
-                    s.DUI = dui;
-                    s.SpeedingTickets = speedtickets;
-                    s.CoverageTypre = coveragetypre;
-                    s.Qoute = (decimal)qoute;
-                    qoute = 50;
-                    var today = DateTime.Today;
-                    var age = today.Year - dateofbirth.Year;
-                    if (dateofbirth > today.AddYears(-25))
-                    {
-                        qoute = qoute + 25;
-                    }
-                    else if (dateofbirth > today.AddYears(-18))
-                    {
-                        qoute = qoute + 100;
-                    }
-                    else if (dateofbirth > today.AddYears(-100))
-                    {
-                        qoute = qoute + 25;
-                    }
-                    if (caryear < 2000)
-                    {
-                        qoute = qoute + 25;
-                    }
-                    else if (caryear > 2015)
-                    {
-                        qoute = qoute + 25;
-                    }
-                    if (carmake == "Porsche")
-                    {
-                        qoute = qoute + 25;
-                    }
-                    if (carmake == "Porsche" && carmodel == "911 Carrera")
-                    {
-                        qoute = qoute + 25;
-                    }
-                    if (speedtickets > 0)
-                    {
-                        qoute = qoute + (speedtickets * 10);
-                    }
-                    if (dui == true)
-                    {
-                        qoute = qoute + (qoute * 25 / 100);
-                    }
-                    else
-                    {
-                        qoute = qoute + 0;
-                    }
-                    if (coveragetypre == true)
-                    {
-                        qoute = qoute + (qoute * 50 / 100);
-                    }
-                    else
-                    {
-                        qoute = qoute + 0;
-                    }
-
-                    s.Qoute = (decimal)qoute;
-
-                    if (ModelState.IsValid)
-                    {
-                        db.Tables.Add(s);
-                        db.SaveChanges();
-
-                        @ViewBag.Total = qoute;
-                    }
-                    return View();
-                }
-            }
-        }
-
 
         protected override void Dispose(bool disposing)
         {
