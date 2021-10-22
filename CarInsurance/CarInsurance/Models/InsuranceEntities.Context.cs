@@ -29,6 +29,17 @@ namespace CarInsurance.Models
         public virtual DbSet<Table> Tables { get; set; }
         public string FirstName { get; internal set; }
         public string LastName { get; internal set; }
-        public IEnumerable<object> InsuranceEntities { get; internal set; }
+
+        private IEnumerable<object> insuranceEntities;
+
+        public IEnumerable<object> GetInsuranceEntities()
+        {
+            return insuranceEntities;
+        }
+
+        internal void SetInsuranceEntities(IEnumerable<object> value)
+        {
+            insuranceEntities = value;
+        }
     }
 }

@@ -148,6 +148,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>InsuranceEntities.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Quote.cs" />
     <Compile Include="Models\Table.cs">
       <DependentUpon>InsuranceEntities.tt</DependentUpon>
     </Compile>
@@ -216,6 +217,7 @@
     <Content Include="Views\Insuree\Details.cshtml" />
     <Content Include="Views\Insuree\Edit.cshtml" />
     <Content Include="Views\Insuree\Index.cshtml" />
+    <Content Include="Views\Insuree\Qouted.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

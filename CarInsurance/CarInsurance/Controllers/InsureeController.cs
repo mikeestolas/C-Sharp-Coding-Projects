@@ -12,7 +12,7 @@ namespace CarInsurance.Controllers
 {
     public class InsureeController : Controller
     {
-        public InsuranceEntities db = new InsuranceEntities();
+        private InsuranceEntities db = new InsuranceEntities();
 
         // GET: Insuree
         public ActionResult Index()
@@ -36,7 +36,90 @@ namespace CarInsurance.Controllers
         }
 
         // GET: Insuree/Create
-        public ActionResult Create
+        public ActionResult Create(string firstName)
+        {
+            return View();
+        }
+
+        // POST: Insuree/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
+        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageTypre, Quote")] Table table)
+        {
+            if (ModelState.IsValid)
+            {
+
+
+
+
+                db.Tables.Add(table);
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+
+            return View(table);
+        }
+
+        // GET: Insuree/Edit/5
+        public ActionResult Edit(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Table table = db.Tables.Find(id);
+            if (table == null)
+            {
+                return HttpNotFound();
+            }
+            return View(table);
+        }
+
+        // POST: Insuree/Edit/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
+        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageTypre,Qoute")] Table table)
+        {
+            if (ModelState.IsValid)
+            {
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(table);
+        }
+
+        // GET: Insuree/Delete/5
+        public ActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Table table = db.Tables.Find(id);
+            if (table == null)
+            {
+                return HttpNotFound();
+            }
+            return View(table);
+        }
+
+        // POST: Insuree/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            Table table = db.Tables.Find(id);
+            db.Tables.Remove(table);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+        [HttpPost]
+        public ActionResult QouteResult
             (string firstname,
             string lastname,
             string emailaddress,
@@ -120,87 +203,21 @@ namespace CarInsurance.Controllers
                     {
                         qoute = qoute + 0;
                     }
+
                     s.Qoute = (decimal)qoute;
-                    {
-                        return View();
-                    }
 
-                    // POST: Insuree/Create
-                    // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-                    // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
-                    [HttpPost]
-                    [ValidateAntiForgeryToken]
-                    public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageTypre, Quote")] Table table, InsuranceEntities db)
+                    if (ModelState.IsValid)
                     {
-                        if (ModelState.IsValid)
-                        {
-                            db.Tables.Add(table);
-                            db.SaveChanges();
-                            return RedirectToAction("Index");
-                        }
-
-                        return View(table);
-                    }
-
-                    // GET: Insuree/Edit/5
-                    public ActionResult Edit(int? id)
-                    {
-                        if (id == null)
-                        {
-                            return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-                        }
-                        Table table = db.Tables.Find(id);
-                        if (table == null)
-                        {
-                            return HttpNotFound();
-                        }
-                        return View(table);
-                    }
-
-                    // POST: Insuree/Edit/5
-                    // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-                    // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
-                    [HttpPost]
-                    [ValidateAntiForgeryToken]
-                    public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageTypre,Qoute")] Table table)
-                    {
-                        if (ModelState.IsValid)
-                        {
-                            db.Entry(table).State = EntityState.Modified;
-                            db.SaveChanges();
-                            return RedirectToAction("Index");
-                        }
-                        return View(table);
-                    }
-
-                    // GET: Insuree/Delete/5
-                    public ActionResult Delete(int? id)
-                    {
-                        if (id == null)
-                        {
-                            return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-                        }
-                        Table table = db.Tables.Find(id);
-                        if (table == null)
-                        {
-                            return HttpNotFound();
-                        }
-                        return View(table);
-                    }
-
-                    // POST: Insuree/Delete/5
-                    [HttpPost, ActionName("Delete")]
-                    [ValidateAntiForgeryToken]
-                    public ActionResult DeleteConfirmed(int id)
-                    {
-                        Table table = db.Tables.Find(id);
-                        db.Tables.Remove(table);
+                        db.Tables.Add(s);
                         db.SaveChanges();
-                        return RedirectToAction("Index");
+
+                        @ViewBag.Total = qoute;
                     }
+                    return View();
                 }
             }
         }
+
 
         protected override void Dispose(bool disposing)
         {

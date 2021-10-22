@@ -76,7 +76,6 @@ C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Proj
 C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\CarInsurance\CarInsurance\bin\Newtonsoft.Json.xml
 C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\CarInsurance\CarInsurance\bin\Antlr3.Runtime.pdb
 C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\CarInsurance\CarInsurance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csproj.AssemblyReference.cache
 C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csproj.CoreCompileInputs.cache
 C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\CarInsurance\CarInsurance\obj\Debug\CarInsurance.dll
 C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\CarInsurance\CarInsurance\obj\Debug\CarInsurance.pdb
@@ -326,3 +325,4 @@ C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\CarInsurance\CarIns
 C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csproj.CoreCompileInputs.cache
 C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\CarInsurance\CarInsurance\obj\Debug\CarInsurance.dll
 C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\CarInsurance\CarInsurance\obj\Debug\CarInsurance.pdb
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\CarInsurance\CarInsurance\obj\Debug\CarInsurance.csproj.CopyComplete
