@@ -1,0 +1,11 @@
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Final Assignment-CodeFirst\Final Assignment-CodeFirst\bin\Debug\Final Assignment-CodeFirst.exe.config
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Final Assignment-CodeFirst\Final Assignment-CodeFirst\bin\Debug\Final Assignment-CodeFirst.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Final Assignment-CodeFirst\Final Assignment-CodeFirst\bin\Debug\Final Assignment-CodeFirst.pdb
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Final Assignment-CodeFirst\Final Assignment-CodeFirst\bin\Debug\EntityFramework.dll
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Final Assignment-CodeFirst\Final Assignment-CodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Final Assignment-CodeFirst\Final Assignment-CodeFirst\bin\Debug\EntityFramework.xml
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Final Assignment-CodeFirst\Final Assignment-CodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Final Assignment-CodeFirst\Final Assignment-CodeFirst\obj\Debug\Final Assignment-CodeFirst.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Final Assignment-CodeFirst\Final Assignment-CodeFirst\obj\Debug\Final Assignment-CodeFirst.csproj.CopyComplete
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Final Assignment-CodeFirst\Final Assignment-CodeFirst\obj\Debug\Final Assignment-CodeFirst.exe
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\Final Assignment-CodeFirst\Final Assignment-CodeFirst\obj\Debug\Final Assignment-CodeFirst.pdb
