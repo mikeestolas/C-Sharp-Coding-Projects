@@ -13,3 +13,4 @@ C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Proj
 C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\ExceptionHandlingAssignment\ExceptionHandlingAssignment\obj\Debug\net5.0\ref\ExceptionHandlingAssignment.dll
 C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\ExceptionHandlingAssignment\ExceptionHandlingAssignment\obj\Debug\net5.0\ExceptionHandlingAssignment.pdb
 C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\ExceptionHandlingAssignment\ExceptionHandlingAssignment\obj\Debug\net5.0\ExceptionHandlingAssignment.genruntimeconfig.cache
+C:\Users\Admin\OneDrive - Sysco Corporation\Documents\GitHub\C-Sharp-Coding-Projects\ExceptionHandlingAssignment\ExceptionHandlingAssignment\obj\Debug\net5.0\ExceptionHandlingAssignment.csproj.AssemblyReference.cache

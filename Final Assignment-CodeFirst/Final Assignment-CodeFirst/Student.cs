@@ -16,6 +16,8 @@ namespace Final_Assignment_CodeFirst
         public float Weight { get; set; }
 
         public Grade Grade { get; set; }
+
+        
     }
 
     

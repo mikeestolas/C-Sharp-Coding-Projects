@@ -12,11 +12,24 @@ namespace Final_Assignment_CodeFirst
         {
             using (var ctx = new SchoolContext())
             {
-                var stud = new Student() { StudentName = "Michael" };
+                 
+                var stud = new Student()
+                {
+                    StudentName = "Bruce Lee",
+                    DateOfBirth = new DateTime(2020,01,01),
+                    Height = 75,
+                    Weight = 60,
+                    Photo = new Byte[1],
+                    
+                    
+                    
+                    
+                };
 
                 ctx.Students.Add(stud);
                 ctx.SaveChanges();
             }
+            Console.WriteLine("Data has been Saved.");
             Console.ReadLine();
         }
     }
